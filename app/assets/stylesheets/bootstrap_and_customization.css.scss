@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Yellowtail);
+
+$font-family-sans-serif: 'Poiret One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-bg:		#34495e;
+$navbar-default-bg:		#2c3e50;
+$navbar-default-link-color:		#ecf0f1;
+$jumbotron-bg:		#7f8c8d;
+@import 'bootstrap';
+
+.myname{
+	font-family: Yellowtail;
+	font-size: 200;
+}
