@@ -5,10 +5,18 @@ $font-family-sans-serif: 'Poiret One', 'Helvetica Neue', Helvetica, Arial, sans-
 $body-bg:		#34495e;
 $navbar-default-bg:		#2c3e50;
 $navbar-default-link-color:		#ecf0f1;
+$navbar-height: 25px;
 $jumbotron-bg:		#7f8c8d;
 @import 'bootstrap';
 
 .myname{
 	font-family: Yellowtail;
-	font-size: 200;
+	font-weight: bold;
+	font-size: 70px;
+	text-align: center;
+	color: #ecf0f1;
+}
+
+.center {
+	text-align: center;
 }
