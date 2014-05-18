@@ -9,7 +9,13 @@ $navbar-height: 25px;
 $jumbotron-bg:		#7f8c8d;
 @import 'bootstrap';
 
-.myname{
+.jumbotron {
+ position: relative;
+}
+.container{
+}
+
+.myname {
 	font-family: Yellowtail;
 	font-weight: bold;
 	font-size: 70px;
@@ -22,7 +28,12 @@ $jumbotron-bg:		#7f8c8d;
 }
 
 .item {
-background-size: cover;
+float: left;
+background-color:black;
+width:cover;
+display:inline-block;
+bottom:0px;
+left:0px;
 opacity: 100;
 top: 0;
 }
@@ -30,3 +41,4 @@ top: 0;
 #main-slider .next {
 right: 10px;
 }
+
