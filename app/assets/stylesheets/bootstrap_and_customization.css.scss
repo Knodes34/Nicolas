@@ -9,12 +9,6 @@ $navbar-height: 25px;
 $jumbotron-bg:		#7f8c8d;
 @import 'bootstrap';
 
-.jumbotron {
- position: relative;
-}
-.container{
-}
-
 .myname {
 	font-family: Yellowtail;
 	font-weight: bold;
@@ -28,14 +22,16 @@ $jumbotron-bg:		#7f8c8d;
 }
 
 .item {
-float: left;
-background-color:black;
-width:cover;
-display:inline-block;
-bottom:0px;
-left:0px;
-opacity: 100;
-top: 0;
+	height: 200px; 
+	display:inline-block;
+	bottom:0px;
+	left:0px;
+	opacity: 100;
+	top: 0;
+}
+
+.jumbotron {
+	display: inline-block;
 }
 
 #main-slider .next {
