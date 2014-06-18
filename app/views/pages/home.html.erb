@@ -1,20 +1,10 @@
-<div class="item" style="background-image: url(http://i.imgur.com/s5udqpt.jpg)">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="carousel-content centered left" style="margin-top: 550px;">
-					<h2 class=" animation animated-item-1">Amsterdam </h2>
-						<p class=" animation animated-item-2">
-						</p>
-							<br>
-							</div>
-							<a class="next hidden-xs" href="#main-slider" data-slide="next">
-								<i class="icon-angle-right"></i>
-				</a>
-			</div>
-		</div>
-</div>
-
 <div class='jumbotron center'>
-<h1>My website is under construction!</h1>
-<p>Click here to <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary"%>.</p>
+	<h1>My website is under construction!</h1>
+	<% if user_signed_in? %>
+		Thanks for signing up :)
+	<% else %>
+		<p>
+				<%= link_to "Login", new_user_session_path, class: "btn btn-primary"%> or <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary"%>.
+		</p>
+	<% end %>
 </div>
